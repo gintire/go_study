@@ -13,6 +13,7 @@ jobs:
 
   build:
     runs-on: macOS
+    environment: test
     steps:
     - uses: actions/checkout@v3
 
